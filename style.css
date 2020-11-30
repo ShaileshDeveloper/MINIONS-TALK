@@ -61,12 +61,12 @@ body {
     text-align: center;
 }
 
-.input-style .image-styling {
+.imager .image-styling {
     max-width: 100%;
     max-width: 200px;
 
 }
 
-.image {
-    text-align: right;
+.imager {
+    text-align: center;
 }
