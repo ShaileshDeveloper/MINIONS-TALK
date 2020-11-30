@@ -4,36 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana | talk</title>
-    <style>
-        textarea{
-            width: 50%;
-            height: 10vh;
-            margin: 1rem;
-            display: block;
-            padding: 1rem;
-        }
-
-        #output{
-            border: 1px solid black;
-            height: 10vh;
-            width: 50%;
-            display: block;
-            margin: 1rem;
-            padding: 1rem;
-        }
-
-
-    </style>
-</head>
+    <link rel="stylesheet" href="style.css">
+   
 <body>
-    <h2>Talk banana</h2>
-    <textarea 
-    id="txt-input"
-    placeholder="Put your text in english and we will convert it to banana language"></textarea> 
-   <button id ="btn-translate">Translate</button>
+    <section class = "heading-color">
+          <h2 class ="heading">TALK BANANA</h2>        
+    </section>
 
-   <div style="font-size: larger;">Output will come here</div>
-   <div id ="output"></div>
+    <section class ="input-style" >
+           <textarea 
+    class =  "textArea"
+    id="txt-input"
+    placeholder="Put your text in english and we will convert it to banana language"></textarea>
+    <img class ="image-styling" src="https://images.hdqwalls.com/wallpapers/minions.jpg" > 
+    </section>
+
+ <div 
+ class ="button-style"><button id ="btn-translate">Translate</button>
+</div>
+
+
+<div class= "output-text"> Output will come here</div>
+
+<div
+  id ="output">   
+</div>
+     
+   
+    
+    
     <script src="app.js"></script>
 </body>
 </html>
